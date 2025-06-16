@@ -1,4 +1,5 @@
 # openGA
+
 A free C++ Genetic Algorithm library
 
 <br>
@@ -42,7 +43,8 @@ Youtube video:
 [![Youtube video](https://img.youtube.com/vi/8T2Teo_Lwrc/0.jpg)](https://www.youtube.com/watch?v=8T2Teo_Lwrc)
 
 ### Supported platforms
-- Linux
+
+- - Linux
 - Windows
 - OSX
 
