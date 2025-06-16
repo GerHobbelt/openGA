@@ -22,6 +22,7 @@ all:
 	@echo make ex_so_bind
 	@echo make ex_so_mulisource
 	@echo make ex_init_solutions
+	@echo make ex_init_solutions_array
 	@echo make ex_mo1
 	@echo make ex_mo_dtlz2
 	@echo make ex_iga_colors
@@ -50,6 +51,11 @@ ex_init_solutions:
 	$(CXX) $(CURRENT_FLAGS) examples/so-init-solutions/example_so-init-solutions.cpp -o $(BIN)/example_so-init-solutions $(LIBS)
 	@echo "-----------------------------------------------"
 	$(BIN)/example_so-init-solutions
+
+ex_init_solutions_array:
+	$(CXX) $(CURRENT_FLAGS) examples/so-init-solutions-array/example_so-init-solutions-array.cpp -o $(BIN)/example_so-init-solutions-array $(LIBS)
+	@echo "-----------------------------------------------"
+	$(BIN)/example_so-init-solutions-array
 
 ex_mo1:
 	$(CXX) $(CURRENT_FLAGS) examples/mo-1/example_mo1.cpp -o $(BIN)/example_mo1 $(LIBS)
