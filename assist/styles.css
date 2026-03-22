@@ -28,7 +28,6 @@
 .short_text{
     display: inline-block;
     width: 150px;
-    /*text-align: right;*/
 }
 
 .cell_input{
@@ -45,7 +44,6 @@ span.separator{
 }
 
 .content{
-    /*background-color: #f8f8f8;*/
     border: solid 1px #eeeeee;
     border-radius:3px;
     margin-top: 3px;
@@ -122,4 +120,3 @@ div.obj{
 .var_max{
     width: 50px;
 }
-
